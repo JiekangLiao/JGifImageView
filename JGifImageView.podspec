@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  用UIImageView写了个简单的GIF播放视图。
+  用UIImageView写了个简单的gif视图,直接设置gif文件名就可以了。
                    DESC
 
   spec.homepage     = "https://github.com/JiekangLiao/JGifImageView"
