@@ -16,26 +16,7 @@
 		D4EA86D42237E37F00ECF946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4EA86D32237E37F00ECF946 /* Assets.xcassets */; };
 		D4EA86D72237E37F00ECF946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EA86D52237E37F00ECF946 /* LaunchScreen.storyboard */; };
 		D4EA86DA2237E37F00ECF946 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA86D92237E37F00ECF946 /* main.m */; };
-		D4EA86E42237E37F00ECF946 /* JGifImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA86E32237E37F00ECF946 /* JGifImageViewTests.m */; };
-		D4EA86EF2237E37F00ECF946 /* JGifImageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA86EE2237E37F00ECF946 /* JGifImageViewUITests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D4EA86E02237E37F00ECF946 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D4EA86BF2237E37D00ECF946 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D4EA86C62237E37D00ECF946;
-			remoteInfo = JGifImageView;
-		};
-		D4EA86EB2237E37F00ECF946 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D4EA86BF2237E37D00ECF946 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D4EA86C62237E37D00ECF946;
-			remoteInfo = JGifImageView;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D45226DF2238D00E000E01E0 /* 5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 5.gif; sourceTree = "<group>"; };
@@ -52,30 +33,10 @@
 		D4EA86D62237E37F00ECF946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4EA86D82237E37F00ECF946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4EA86D92237E37F00ECF946 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D4EA86DF2237E37F00ECF946 /* JGifImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGifImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4EA86E32237E37F00ECF946 /* JGifImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGifImageViewTests.m; sourceTree = "<group>"; };
-		D4EA86E52237E37F00ECF946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4EA86EA2237E37F00ECF946 /* JGifImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGifImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4EA86EE2237E37F00ECF946 /* JGifImageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGifImageViewUITests.m; sourceTree = "<group>"; };
-		D4EA86F02237E37F00ECF946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D4EA86C42237E37D00ECF946 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D4EA86DC2237E37F00ECF946 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D4EA86E72237E37F00ECF946 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -107,8 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				D4EA86C92237E37D00ECF946 /* JGifImageView */,
-				D4EA86E22237E37F00ECF946 /* JGifImageViewTests */,
-				D4EA86ED2237E37F00ECF946 /* JGifImageViewUITests */,
 				D4EA86C82237E37D00ECF946 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -117,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				D4EA86C72237E37D00ECF946 /* JGifImageView.app */,
-				D4EA86DF2237E37F00ECF946 /* JGifImageViewTests.xctest */,
-				D4EA86EA2237E37F00ECF946 /* JGifImageViewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,24 +98,6 @@
 			path = JGifImageView;
 			sourceTree = "<group>";
 		};
-		D4EA86E22237E37F00ECF946 /* JGifImageViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				D4EA86E32237E37F00ECF946 /* JGifImageViewTests.m */,
-				D4EA86E52237E37F00ECF946 /* Info.plist */,
-			);
-			path = JGifImageViewTests;
-			sourceTree = "<group>";
-		};
-		D4EA86ED2237E37F00ECF946 /* JGifImageViewUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D4EA86EE2237E37F00ECF946 /* JGifImageViewUITests.m */,
-				D4EA86F02237E37F00ECF946 /* Info.plist */,
-			);
-			path = JGifImageViewUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -179,42 +118,6 @@
 			productReference = D4EA86C72237E37D00ECF946 /* JGifImageView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D4EA86DE2237E37F00ECF946 /* JGifImageViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D4EA86F62237E37F00ECF946 /* Build configuration list for PBXNativeTarget "JGifImageViewTests" */;
-			buildPhases = (
-				D4EA86DB2237E37F00ECF946 /* Sources */,
-				D4EA86DC2237E37F00ECF946 /* Frameworks */,
-				D4EA86DD2237E37F00ECF946 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D4EA86E12237E37F00ECF946 /* PBXTargetDependency */,
-			);
-			name = JGifImageViewTests;
-			productName = JGifImageViewTests;
-			productReference = D4EA86DF2237E37F00ECF946 /* JGifImageViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		D4EA86E92237E37F00ECF946 /* JGifImageViewUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D4EA86F92237E37F00ECF946 /* Build configuration list for PBXNativeTarget "JGifImageViewUITests" */;
-			buildPhases = (
-				D4EA86E62237E37F00ECF946 /* Sources */,
-				D4EA86E72237E37F00ECF946 /* Frameworks */,
-				D4EA86E82237E37F00ECF946 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D4EA86EC2237E37F00ECF946 /* PBXTargetDependency */,
-			);
-			name = JGifImageViewUITests;
-			productName = JGifImageViewUITests;
-			productReference = D4EA86EA2237E37F00ECF946 /* JGifImageViewUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -226,14 +129,6 @@
 				TargetAttributes = {
 					D4EA86C62237E37D00ECF946 = {
 						CreatedOnToolsVersion = 10.1;
-					};
-					D4EA86DE2237E37F00ECF946 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = D4EA86C62237E37D00ECF946;
-					};
-					D4EA86E92237E37F00ECF946 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = D4EA86C62237E37D00ECF946;
 					};
 				};
 			};
@@ -251,8 +146,6 @@
 			projectRoot = "";
 			targets = (
 				D4EA86C62237E37D00ECF946 /* JGifImageView */,
-				D4EA86DE2237E37F00ECF946 /* JGifImageViewTests */,
-				D4EA86E92237E37F00ECF946 /* JGifImageViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -270,20 +163,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4EA86DD2237E37F00ECF946 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D4EA86E82237E37F00ECF946 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -298,36 +177,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4EA86DB2237E37F00ECF946 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D4EA86E42237E37F00ECF946 /* JGifImageViewTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D4EA86E62237E37F00ECF946 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D4EA86EF2237E37F00ECF946 /* JGifImageViewUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D4EA86E12237E37F00ECF946 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D4EA86C62237E37D00ECF946 /* JGifImageView */;
-			targetProxy = D4EA86E02237E37F00ECF946 /* PBXContainerItemProxy */;
-		};
-		D4EA86EC2237E37F00ECF946 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D4EA86C62237E37D00ECF946 /* JGifImageView */;
-			targetProxy = D4EA86EB2237E37F00ECF946 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D4EA86D02237E37D00ECF946 /* Main.storyboard */ = {
@@ -497,78 +347,6 @@
 			};
 			name = Release;
 		};
-		D4EA86F72237E37F00ECF946 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JGifImageViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jack.JGifImageViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JGifImageView.app/JGifImageView";
-			};
-			name = Debug;
-		};
-		D4EA86F82237E37F00ECF946 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JGifImageViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jack.JGifImageViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JGifImageView.app/JGifImageView";
-			};
-			name = Release;
-		};
-		D4EA86FA2237E37F00ECF946 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				INFOPLIST_FILE = JGifImageViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jack.JGifImageViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = JGifImageView;
-			};
-			name = Debug;
-		};
-		D4EA86FB2237E37F00ECF946 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				INFOPLIST_FILE = JGifImageViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jack.JGifImageViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = JGifImageView;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -586,24 +364,6 @@
 			buildConfigurations = (
 				D4EA86F42237E37F00ECF946 /* Debug */,
 				D4EA86F52237E37F00ECF946 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D4EA86F62237E37F00ECF946 /* Build configuration list for PBXNativeTarget "JGifImageViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D4EA86F72237E37F00ECF946 /* Debug */,
-				D4EA86F82237E37F00ECF946 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D4EA86F92237E37F00ECF946 /* Build configuration list for PBXNativeTarget "JGifImageViewUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D4EA86FA2237E37F00ECF946 /* Debug */,
-				D4EA86FB2237E37F00ECF946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
