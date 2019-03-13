@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D45226E12238D00E000E01E0 /* 5.gif in Resources */ = {isa = PBXBuildFile; fileRef = D45226DF2238D00E000E01E0 /* 5.gif */; };
+		D45226E22238D00E000E01E0 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = D45226E02238D00E000E01E0 /* 1.gif */; };
+		D45226E52238D057000E01E0 /* JGifImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D45226E42238D057000E01E0 /* JGifImageView.m */; };
+		D4EA86CC2237E37D00ECF946 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA86CB2237E37D00ECF946 /* AppDelegate.m */; };
+		D4EA86CF2237E37D00ECF946 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA86CE2237E37D00ECF946 /* ViewController.m */; };
+		D4EA86D22237E37D00ECF946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EA86D02237E37D00ECF946 /* Main.storyboard */; };
+		D4EA86D42237E37F00ECF946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4EA86D32237E37F00ECF946 /* Assets.xcassets */; };
+		D4EA86D72237E37F00ECF946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EA86D52237E37F00ECF946 /* LaunchScreen.storyboard */; };
+		D4EA86DA2237E37F00ECF946 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA86D92237E37F00ECF946 /* main.m */; };
+		D4EA86E42237E37F00ECF946 /* JGifImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA86E32237E37F00ECF946 /* JGifImageViewTests.m */; };
+		D4EA86EF2237E37F00ECF946 /* JGifImageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA86EE2237E37F00ECF946 /* JGifImageViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4EA86E02237E37F00ECF946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4EA86BF2237E37D00ECF946 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4EA86C62237E37D00ECF946;
+			remoteInfo = JGifImageView;
+		};
+		D4EA86EB2237E37F00ECF946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4EA86BF2237E37D00ECF946 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4EA86C62237E37D00ECF946;
+			remoteInfo = JGifImageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D45226DF2238D00E000E01E0 /* 5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 5.gif; sourceTree = "<group>"; };
+		D45226E02238D00E000E01E0 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		D45226E32238D057000E01E0 /* JGifImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGifImageView.h; sourceTree = "<group>"; };
+		D45226E42238D057000E01E0 /* JGifImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGifImageView.m; sourceTree = "<group>"; };
+		D4EA86C72237E37D00ECF946 /* JGifImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGifImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4EA86CA2237E37D00ECF946 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D4EA86CB2237E37D00ECF946 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4EA86CD2237E37D00ECF946 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D4EA86CE2237E37D00ECF946 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D4EA86D12237E37D00ECF946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4EA86D32237E37F00ECF946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4EA86D62237E37F00ECF946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4EA86D82237E37F00ECF946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4EA86D92237E37F00ECF946 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4EA86DF2237E37F00ECF946 /* JGifImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGifImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4EA86E32237E37F00ECF946 /* JGifImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGifImageViewTests.m; sourceTree = "<group>"; };
+		D4EA86E52237E37F00ECF946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4EA86EA2237E37F00ECF946 /* JGifImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGifImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4EA86EE2237E37F00ECF946 /* JGifImageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGifImageViewUITests.m; sourceTree = "<group>"; };
+		D4EA86F02237E37F00ECF946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4EA86C42237E37D00ECF946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4EA86DC2237E37F00ECF946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4EA86E72237E37F00ECF946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D45226DA2238B111000E01E0 /* JGifImageView */ = {
+			isa = PBXGroup;
+			children = (
+				D45226E32238D057000E01E0 /* JGifImageView.h */,
+				D45226E42238D057000E01E0 /* JGifImageView.m */,
+			);
+			path = JGifImageView;
+			sourceTree = "<group>";
+		};
+		D45226DE2238D00E000E01E0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D45226DF2238D00E000E01E0 /* 5.gif */,
+				D45226E02238D00E000E01E0 /* 1.gif */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D4EA86BE2237E37D00ECF946 = {
+			isa = PBXGroup;
+			children = (
+				D4EA86C92237E37D00ECF946 /* JGifImageView */,
+				D4EA86E22237E37F00ECF946 /* JGifImageViewTests */,
+				D4EA86ED2237E37F00ECF946 /* JGifImageViewUITests */,
+				D4EA86C82237E37D00ECF946 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4EA86C82237E37D00ECF946 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4EA86C72237E37D00ECF946 /* JGifImageView.app */,
+				D4EA86DF2237E37F00ECF946 /* JGifImageViewTests.xctest */,
+				D4EA86EA2237E37F00ECF946 /* JGifImageViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4EA86C92237E37D00ECF946 /* JGifImageView */ = {
+			isa = PBXGroup;
+			children = (
+				D4EA86CA2237E37D00ECF946 /* AppDelegate.h */,
+				D4EA86CB2237E37D00ECF946 /* AppDelegate.m */,
+				D4EA86CD2237E37D00ECF946 /* ViewController.h */,
+				D4EA86CE2237E37D00ECF946 /* ViewController.m */,
+				D45226DE2238D00E000E01E0 /* Resources */,
+				D45226DA2238B111000E01E0 /* JGifImageView */,
+				D4EA86D02237E37D00ECF946 /* Main.storyboard */,
+				D4EA86D32237E37F00ECF946 /* Assets.xcassets */,
+				D4EA86D52237E37F00ECF946 /* LaunchScreen.storyboard */,
+				D4EA86D82237E37F00ECF946 /* Info.plist */,
+				D4EA86D92237E37F00ECF946 /* main.m */,
+			);
+			path = JGifImageView;
+			sourceTree = "<group>";
+		};
+		D4EA86E22237E37F00ECF946 /* JGifImageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4EA86E32237E37F00ECF946 /* JGifImageViewTests.m */,
+				D4EA86E52237E37F00ECF946 /* Info.plist */,
+			);
+			path = JGifImageViewTests;
+			sourceTree = "<group>";
+		};
+		D4EA86ED2237E37F00ECF946 /* JGifImageViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4EA86EE2237E37F00ECF946 /* JGifImageViewUITests.m */,
+				D4EA86F02237E37F00ECF946 /* Info.plist */,
+			);
+			path = JGifImageViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4EA86C62237E37D00ECF946 /* JGifImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4EA86F32237E37F00ECF946 /* Build configuration list for PBXNativeTarget "JGifImageView" */;
+			buildPhases = (
+				D4EA86C32237E37D00ECF946 /* Sources */,
+				D4EA86C42237E37D00ECF946 /* Frameworks */,
+				D4EA86C52237E37D00ECF946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JGifImageView;
+			productName = JGifImageView;
+			productReference = D4EA86C72237E37D00ECF946 /* JGifImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4EA86DE2237E37F00ECF946 /* JGifImageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4EA86F62237E37F00ECF946 /* Build configuration list for PBXNativeTarget "JGifImageViewTests" */;
+			buildPhases = (
+				D4EA86DB2237E37F00ECF946 /* Sources */,
+				D4EA86DC2237E37F00ECF946 /* Frameworks */,
+				D4EA86DD2237E37F00ECF946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4EA86E12237E37F00ECF946 /* PBXTargetDependency */,
+			);
+			name = JGifImageViewTests;
+			productName = JGifImageViewTests;
+			productReference = D4EA86DF2237E37F00ECF946 /* JGifImageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4EA86E92237E37F00ECF946 /* JGifImageViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4EA86F92237E37F00ECF946 /* Build configuration list for PBXNativeTarget "JGifImageViewUITests" */;
+			buildPhases = (
+				D4EA86E62237E37F00ECF946 /* Sources */,
+				D4EA86E72237E37F00ECF946 /* Frameworks */,
+				D4EA86E82237E37F00ECF946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4EA86EC2237E37F00ECF946 /* PBXTargetDependency */,
+			);
+			name = JGifImageViewUITests;
+			productName = JGifImageViewUITests;
+			productReference = D4EA86EA2237E37F00ECF946 /* JGifImageViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4EA86BF2237E37D00ECF946 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Jack;
+				TargetAttributes = {
+					D4EA86C62237E37D00ECF946 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D4EA86DE2237E37F00ECF946 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D4EA86C62237E37D00ECF946;
+					};
+					D4EA86E92237E37F00ECF946 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D4EA86C62237E37D00ECF946;
+					};
+				};
+			};
+			buildConfigurationList = D4EA86C22237E37D00ECF946 /* Build configuration list for PBXProject "JGifImageView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4EA86BE2237E37D00ECF946;
+			productRefGroup = D4EA86C82237E37D00ECF946 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4EA86C62237E37D00ECF946 /* JGifImageView */,
+				D4EA86DE2237E37F00ECF946 /* JGifImageViewTests */,
+				D4EA86E92237E37F00ECF946 /* JGifImageViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4EA86C52237E37D00ECF946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4EA86D72237E37F00ECF946 /* LaunchScreen.storyboard in Resources */,
+				D4EA86D42237E37F00ECF946 /* Assets.xcassets in Resources */,
+				D45226E12238D00E000E01E0 /* 5.gif in Resources */,
+				D45226E22238D00E000E01E0 /* 1.gif in Resources */,
+				D4EA86D22237E37D00ECF946 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4EA86DD2237E37F00ECF946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4EA86E82237E37F00ECF946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4EA86C32237E37D00ECF946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4EA86CF2237E37D00ECF946 /* ViewController.m in Sources */,
+				D4EA86DA2237E37F00ECF946 /* main.m in Sources */,
+				D45226E52238D057000E01E0 /* JGifImageView.m in Sources */,
+				D4EA86CC2237E37D00ECF946 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4EA86DB2237E37F00ECF946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4EA86E42237E37F00ECF946 /* JGifImageViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4EA86E62237E37F00ECF946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4EA86EF2237E37F00ECF946 /* JGifImageViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4EA86E12237E37F00ECF946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4EA86C62237E37D00ECF946 /* JGifImageView */;
+			targetProxy = D4EA86E02237E37F00ECF946 /* PBXContainerItemProxy */;
+		};
+		D4EA86EC2237E37F00ECF946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4EA86C62237E37D00ECF946 /* JGifImageView */;
+			targetProxy = D4EA86EB2237E37F00ECF946 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4EA86D02237E37D00ECF946 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4EA86D12237E37D00ECF946 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4EA86D52237E37F00ECF946 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4EA86D62237E37F00ECF946 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4EA86F12237E37F00ECF946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4EA86F22237E37F00ECF946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4EA86F42237E37F00ECF946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = JGifImageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jack.JGifImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4EA86F52237E37F00ECF946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = JGifImageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jack.JGifImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4EA86F72237E37F00ECF946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JGifImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jack.JGifImageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JGifImageView.app/JGifImageView";
+			};
+			name = Debug;
+		};
+		D4EA86F82237E37F00ECF946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JGifImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jack.JGifImageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JGifImageView.app/JGifImageView";
+			};
+			name = Release;
+		};
+		D4EA86FA2237E37F00ECF946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JGifImageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jack.JGifImageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JGifImageView;
+			};
+			name = Debug;
+		};
+		D4EA86FB2237E37F00ECF946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JGifImageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jack.JGifImageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JGifImageView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4EA86C22237E37D00ECF946 /* Build configuration list for PBXProject "JGifImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4EA86F12237E37F00ECF946 /* Debug */,
+				D4EA86F22237E37F00ECF946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4EA86F32237E37F00ECF946 /* Build configuration list for PBXNativeTarget "JGifImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4EA86F42237E37F00ECF946 /* Debug */,
+				D4EA86F52237E37F00ECF946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4EA86F62237E37F00ECF946 /* Build configuration list for PBXNativeTarget "JGifImageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4EA86F72237E37F00ECF946 /* Debug */,
+				D4EA86F82237E37F00ECF946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4EA86F92237E37F00ECF946 /* Build configuration list for PBXNativeTarget "JGifImageViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4EA86FA2237E37F00ECF946 /* Debug */,
+				D4EA86FB2237E37F00ECF946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4EA86BF2237E37D00ECF946 /* Project object */;
+}
