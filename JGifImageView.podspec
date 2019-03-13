@@ -132,7 +132,7 @@ Pod::Spec.new do |spec|
 
    spec.requires_arc = true
 
-  # spec.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => "$(PODS_ROOT)/JGifImageView" }
+   spec.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => "$(PODS_ROOT)/JGifImageView" }
   # spec.dependency "JSONKit", "~> 1.4"
 
 end
